@@ -59,5 +59,13 @@ with open("output.zip", "rb") as file:
     st.download_button("Download Zip", data=file, file_name='output.zip')
 
 
-if __name__ == "__home__":
-    main()
+# Button to create a zip file
+if st.button("Create Zip of word"):
+    zip_folder('Docs Result', "output")
+    st.success("Zip file created successfully!")
+
+# Button to download the zip file
+with open("output.zip", "rb") as file:
+    st.download_button("Download Zip", data=file, file_name='output.zip')
+
+

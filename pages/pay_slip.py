@@ -4,7 +4,7 @@ import os
 folder_path = "Docs Result"
 
 # Load the Word template
-doc = DocxTemplate("pages\\asset\\PAY SLIP of Precesion.docx")
+doc = DocxTemplate("pages/asset/PAY SLIP of Precesion.docx")
 
 st.title("Pay Slip")
 
@@ -59,9 +59,9 @@ def main():
 
     if st.button("Submit"):
         if option == "Kasperan Alytics":
-            doc = DocxTemplate("pages\\asset\\PAY SLIP.docx")
+            doc = DocxTemplate("pages/asset/PAY SLIP.docx")
         elif option == 'Precesion Staffing':
-            doc = DocxTemplate("pages\\asset\\PAY SLIP of Precesion.docx")
+            doc = DocxTemplate("pages/asset/PAY SLIP of Precesion.docx")
         context = {
             'mon': month_details[int(input1)][0],
             'date': input2,

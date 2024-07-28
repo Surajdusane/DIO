@@ -5,7 +5,7 @@ folder_path = "Docs Result"
 
 
 # Load the Word template
-doc = DocxTemplate("pages\\asset\Resignation Letter.docx")
+doc = DocxTemplate("pages/asset/Resignation Letter.docx")
 
 st.title("Resignation Letter")
 
@@ -25,9 +25,9 @@ def main():
     # Create a submit button
     if st.button("Submit"):
         if option == "Kasperan Alytics":
-            doc = DocxTemplate("pages\\asset\\Resignation Letter.docx")
+            doc = DocxTemplate("pages/asset/Resignation Letter.docx")
         elif option == 'Precesion Staffing':
-            doc = DocxTemplate("pages\\asset\\Resignation Letter of Precesion.docx")
+            doc = DocxTemplate("pages/asset/Resignation Letter of Precesion.docx")
         context = {
             'name': input1,
             'mail': input2,

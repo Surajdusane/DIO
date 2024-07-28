@@ -4,7 +4,7 @@ import os
 folder_path = "Docs Result"
 
 # Load the Word template
-doc = DocxTemplate("pages\\asset\Precesion offeer letter Final.docx")
+doc = DocxTemplate("pages/asset\Precesion offeer letter Final.docx")
 
 st.title("Offer Letter")
 
@@ -31,9 +31,9 @@ def main():
     # Create a submit button
     if st.button("Submit"):
         if option == "Kasperan Alytics":
-            doc = DocxTemplate("pages\\asset\\Offer Letter.docx")
+            doc = DocxTemplate("pages/asset/Offer Letter.docx")
         elif option == 'Precesion Staffing':
-            doc = DocxTemplate("pages\\asset\\Offer Letter Precesion.docx")
+            doc = DocxTemplate("pages/asset/Offer Letter Precesion.docx")
         context = {
             'dol': input1,
             'name': input2.title(),

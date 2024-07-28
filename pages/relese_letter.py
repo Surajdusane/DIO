@@ -5,7 +5,7 @@ folder_path = "Docs Result"
 
 
 # Load the Word template
-doc = DocxTemplate("pages\\asset\Resignation Letter.docx")
+doc = DocxTemplate("pages/asset\Resignation Letter.docx")
 
 st.title("Resignation Letter")
 

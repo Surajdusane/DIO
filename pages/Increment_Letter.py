@@ -21,9 +21,9 @@ def main():
     # Create a submit button
     if st.button("Submit"):
         if option == "Kasperan Alytics":
-            doc = DocxTemplate("pages\\asset\\INCREMENT LETTER.docx")
+            doc = DocxTemplate("pages/asset/INCREMENT LETTER.docx")
         elif option == 'Precesion Staffing':
-            doc = DocxTemplate("pages\\asset\\Increment letter of Precesion.docx")
+            doc = DocxTemplate("pages/asset/Increment letter of Precesion.docx")
         context = {
             'dol': input1,
             'name': input2.title(),
