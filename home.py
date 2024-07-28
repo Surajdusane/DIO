@@ -66,6 +66,6 @@ if st.button("Create Zip of word"):
 
 # Button to download the zip file
 with open("output.zip", "rb") as file:
-    st.download_button("Download Zip", data=file, file_name='output.zip')
+    st.download_button("Download Zip of word", data=file, file_name='output.zip')
 
 
