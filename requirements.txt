@@ -2,3 +2,4 @@ streamlit
 docxtpl
 docx2pdf
 Spire.pdf
+PyPDF2
