@@ -5,7 +5,7 @@ folder_path = "Docs Result"
 
 
 # Load the Word template
-doc = DocxTemplate(r"pages\\asset\CERTIFICATE.docx")
+doc = DocxTemplate(r"./pages\\asset\CERTIFICATE.docx")
 
 st.title("Certificate")
 
